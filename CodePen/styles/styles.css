@@ -1,0 +1,297 @@
+.body {
+    margin: -5px;
+    font-family: 'Menlo', sans-serif;
+}
+
+
+.navigation-wrapper {
+    background-color: rgb(47, 44, 44);
+    color: white;
+    display: flex;
+    margin: -10px;
+    width: 1920px;
+    font-family: 'Menlo', sans-serif;
+}
+
+.nav-slots {
+    display:flex;
+    margin-top: -10px;
+}
+
+.navigation-wrapper img {
+    height: 45px;
+    padding-left: 20px;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .nav-bar h1 {
+    margin: 0px;
+    font-size: 1.25em;
+}
+
+
+
+.Explore {
+    color: #ece086;
+    margin: -20px;
+    margin-left: 65px;
+    padding-top: 20px;
+}
+
+
+.Spark-v > .Spark h1 {
+    display:flex;
+    flex-direction:row;
+}
+
+
+.down-arrow2 {
+    padding-left: 10px;
+    opacity: 1;
+    
+}
+
+.Spark-v > .Spark,.down-arrow2 {
+    display:flex;
+    flex-direction:row;
+}
+
+.Spark {
+    opacity: .5;
+    padding-left: 20px;
+    margin-top: -20px;
+    padding-right:10px;
+}
+
+.Pens {
+    padding-left: 65px;
+    margin-top: -20px;
+}
+
+.Projects {
+    padding-left: 20px;
+    margin-top: -20px;
+}
+
+.Posts {
+        padding-left: 20px;
+        margin-top: -20px;
+}
+.Collections {
+    padding-left: 20px;
+    margin-top: -20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.Create {
+    font-size: .75em;
+    background-color: #36383f;
+    border-radius: 3px;
+    padding: 0px 35px 0px 15px;
+    outline: #2b2c32 solid 3px;
+    display:flex;
+    flex-direction:row;
+}
+
+.down-arrow {
+    padding-left: 15px;
+    padding-top: 0px;
+    color: #4aca78;
+    font-size: 2.75em;
+}
+
+
+.magnifying {
+    padding-right: 25px;
+}
+
+.Log-In {
+    background-color: #36383f;
+    border-radius: 3px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    margin: inherit;
+    outline: #2b2c32 solid 3px;
+    font-size: .75em;
+
+}
+
+.spacerlog {
+    width: 20px;
+}
+
+.Sign-In {
+    font-size: 1em;
+    background-color: #36383f;
+    border-radius: 3px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    outline: #2b2c32 solid 3px;
+    font-size: .75em;
+}
+
+.spacer101 {
+    width: 220px
+}
+
+
+/* Main Page */
+.main-page {
+    height: 700px;
+    width: 1920px;
+    margin: -10px;
+    background-image: radial-gradient(at top left, #393d45, #0a0a0c);
+    font-family: 'Menlo', sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph1 {
+    color: #ebeced;
+    font-size: 1.25em;
+    padding-left: 75px;
+    padding-top: 75px;
+}
+
+.paragraph2 {
+    color: #afb3b3;
+    font-size: 1.25em; 
+    padding-left: 75px;
+}
+
+.spacerparagraph-btns {
+    height: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1 {
+    background-color: #4bce79;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: black; 
+}
+
+.spacerbtn1 {
+    width: 75px;
+}
+
+.btn2 {
+    background-color: #111111;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white; 
+}
+
+.spacerbtn2 {
+    width: 30px;
+}
+
+/* Right Column */
+.right-column img {
+    height: 540px;
+    padding-left: 135px;
+}
+
+.img-sentence {
+    display: flex;
+    flex-direction: row;
+    padding-left: 135px;
+    font-size: 1.5em;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+.This-is {
+    color: #f8fcf9;
+}
+
+.CodePen-Projects {
+    color: #54cef7;
+    padding-left: 15px;
+}
+
+.exclamation-mark {
+    color: #f8fcf9;
+}
+
+/* Lower row */
+.lower-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-size: 2em;
+    background-color: #36383f;
+    width: 1915px;
+    margin-left: -7px;
+    font-family: 'Menlo', sans-serif;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: center;
+    outline: #676767 solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grid2 {
+    display: flex;
+    justify-content: center;
+    outline: #676767 solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grid3 {
+    display: flex;
+    justify-content: center;
+    outline: #676767 solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grid4{
+    display: flex;
+    justify-content: center;
+    outline: #676767 solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Lower Block */
+.lower-block {
+    width: 1920px;
+    background-color: #191a1d;
+    height: 111px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    outline:#191a1d;
+}
